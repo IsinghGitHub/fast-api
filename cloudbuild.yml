@@ -1,5 +1,5 @@
 steps:
-- name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '--target', 'production', '-t', 'gcr.io/yourgcpproject/quik-sat', '.']
+- name: ' gcr.io/linen-flux-306117/github.com/isinghgithub/fast-api'
+  args: ['build', '--target', 'fast-api', '-t', ' gcr.io/linen-flux-306117/github.com/isinghgithub/fast-api', '.']
 images:
-- 'gcr.io/yourgcpproject/quik-sat'
+- ' gcr.io/linen-flux-306117/github.com/isinghgithub/fast-api'
